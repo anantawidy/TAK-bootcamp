@@ -1,0 +1,42 @@
+class elem():
+    
+    #register
+    click_register = "[class=ico-register]"
+    gen_male = "[id=gender-male]"
+    gen_female = "[id=gender-female]"
+    firstname = "{id=FirstName}"
+    lastname = "[id=LastName]"
+    email_regist = "[id=Email]"
+    password_regist = "[id=Password]"
+    confirm_password = "[id=ConfirmPassword]"
+    btn_register = "[id=register-button]"
+    btn_continue = "[class=button-1 register-continue-button]"
+    success_register = "{class=ico-logout}"
+
+    #login
+    click_login = "[class=ico-login]"
+    email = "[class=email]"
+    password = "[class=password]"
+    check_remember = "[id=RememberMe]"
+    btn_login = "[class=buttons]"
+    error_login = "[class=validation-summary-errors]"
+
+    #add to cart
+    book_category = "/html/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[1]/a"
+    fiction = "/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[3]/div/div[2]/h2/a"
+    btn_atc = "[class=button-1 add-to-cart-button]"
+    send_email = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/form/div[3]"
+    result_send_message = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]"
+    error_no_email = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/form/div[2]/div[1]/div[1]/span"
+    compare_list = "//*[@id='product-details-form']/div/div[1]/div[2]/div[8]"
+    btn_remove_compare = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/table/tbody/tr[1]/td[2]/div/p[1]/input"
+    remove_compare = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[1]"
+    btn_shopping_cart = "//*[@id='topcartlink']"
+    btn_checklist_cart = "/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr/td[1]/input"
+    btn_update_cart = "/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[1]/div/input[1]"
+    success_remove_cart = "/html/body/div[4]/div[1]/div[4]/div/div[2]"
+    estimate_shipping = "/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[2]/div[1]/div[2]/div/div[3]/div[4]"
+    success_shipping = "/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[2]/div[1]/div[2]/div/ul/li[1]/strong"
+    tnc = "/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[2]/div[2]/div[3]"
+    btn_checkout = "/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[2]/div[2]/div[4]"
+    no_tnc = "/html/body/div[5]"
